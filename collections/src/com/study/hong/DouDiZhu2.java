@@ -6,13 +6,13 @@ public class DouDiZhu2 {
     public static void main(String[] args) {
         // 1. 准备牌
         // 1.1 定义一个HashMap集合,存储54张牌的索引和牌
-        Map<Integer, String> poKer = new HashMap<>();
+     /*   Map<Integer, String> poKer = new HashMap<>();
         //1.2 定义一个ArrayList集合，存储牌的索引
         List<Integer> poKerIndex = new ArrayList<>();
         //1.3 定义两个集合存储花色和牌得序号
-        List<String> colors = List.of("♥", "♠", "♦", "♣");
-        List<String> numbers = List.of("2", "1", "K", "Q", "J", "10", "9",
-                "8", "7", "6", "5", "4", "3");
+       // List<String> colors = List.of("♥", "♠", "♦", "♣");
+       // List<String> numbers = List.of("2", "1", "K", "Q", "J", "10", "9",
+       //         "8", "7", "6", "5", "4", "3");
         //1.4 先将大王和小王的牌以及其索引存储到集合中
         int index = 0;
         poKer.put(index, "大王");
@@ -71,5 +71,6 @@ public class DouDiZhu2 {
             System.out.print(pai + " ");
         }
         System.out.println();
+    }*/
     }
 }

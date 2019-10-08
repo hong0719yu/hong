@@ -165,16 +165,16 @@ public class demo01 {
             System.out.println(key + "-->" + value);
         }*/
 
-        List<String> list = List.of("b", "a");
+        //List<String> list = List.of("b", "a");
         //list.add("b");//UnsupportedOperationException不支持操作异常
-        System.out.println(list);
+       // System.out.println(list);
         //Set<String> set = Set.of("a", "a");//IllegalArgumentException非法参数异常,有重复元素
-        Set<String> set = Set.of("a", "b", "c");
+        //Set<String> set = Set.of("a", "b", "c");
         //set.remove("a");//UnsupportedOperationException不支持操作异常
-        System.out.println(set);
+      //  System.out.println(set);
         //Map<String, Integer> map = Map.of("a", 1, "a", 2);//IllegalArgumentException非法参数异常,有重复元素
-        Map<String, Integer> map = Map.of("a", 1, "c", 1, "b", 1);
+       // Map<String, Integer> map = Map.of("a", 1, "c", 1, "b", 1);
         //map.put("a", 2);//UnsupportedOperationException不支持操作异常
-        System.out.println(map);
+       // System.out.println(map);
     }
 }
